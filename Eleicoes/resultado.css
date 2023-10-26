@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    height: 100%;
+    min-width: 100vh;
+    background-color:rgba(177, 177, 177, 0.349);
+}
+header{
+    background-color: #504f56;
+    display:  flex;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+h1{
+    padding: 28px;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+#Menu{
+    align-self: End;
+    margin-right: 100px;
+    font-size: 25px;
+}
+#menuRes{
+    background-color: #e3e3e3;
+    border-radius: 10%;
+    border:solid #e3e3e3 10px ;
+
+}
+#menuHome:hover{
+    color:#e3e3e3 ;
+}
+a { 
+    color: inherit;
+    text-decoration: none;
+} 
+.resultado{
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.tabelas{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.nomeTabela{
+    background-color: #e3e3e3;
+    color: #504f56;
+    font-size: 30px;
+    text-align: center
+    ;}
+.presidenteGov{
+    font-size: 25px;
+    padding-left: 40px;
+}
+td{
+    padding: 8px;
+      page-break-inside: avoid;
+      height: 32px;
+    width: 100px;
+    background-color: #504f56;
+}
+.primeiraColuna{
+    width: 250px;
+}
+
+.vencedor{
+    background-color: azure;
+}
+.vencedores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+img{
+    height:200px;
+    width: 200px;
+    border-radius: 8%;
+}
+
+footer{
+    background: rgb(1,1,1);
+    background: linear-gradient(90deg, rgba(1,1,1,1) 0%, rgba(110,106,103,1) 28%, rgba(115,55,23,1) 61%, rgba(22,21,20,1) 83%);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
